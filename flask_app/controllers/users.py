@@ -1,9 +1,6 @@
-# This will be in your controllers folder.  Remember to 'pipenv install flask pymysql flask_bcrypt' in your main project folder!
 from flask_app import app, bcrypt
 from flask_app.models.user import User
 from flask import flash, render_template, redirect, request, session
-
-# Replace all "Users/user" with your class name!
 
 
 @app.route("/")
